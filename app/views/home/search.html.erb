@@ -1,0 +1,4 @@
+<h1>voici le prix de la crypto recherché<h1>
+</br>
+<p><%=Crypto.find_by(name: params[:crypto][:name]).prices%></p>
+<p><%=Crypto.find_by(name: params[:crypto][:name]).name%></p>
