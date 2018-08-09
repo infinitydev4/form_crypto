@@ -22,7 +22,6 @@ end
 
 
 def save
-  
 perform
 
  @arr.each do |a|
